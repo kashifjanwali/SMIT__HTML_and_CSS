@@ -1,0 +1,35 @@
+/* CSS Variables */
+:root{
+    --red : #f65314;
+    --green : #7cbb00;
+    --blue : #00a1f1;
+    --yellow : #ffbb00;
+}
+
+.microsoft-logo {
+    width: 200px;
+    margin: 35vh auto;
+}
+
+.red-box {
+    background-color: var(--red);
+}
+
+.green-box {
+    background-color: var(--green);
+}
+
+.blue-box {
+    background-color: var(--blue);
+}
+
+.yellow-box {
+    background-color: var(--yellow);
+}
+
+.box {
+    width: 93px;
+    height: 95px;
+    margin: 0 7px 7px 0;
+    float: left;
+}
