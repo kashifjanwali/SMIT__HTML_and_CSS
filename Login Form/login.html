@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="container-flex">
+        <div class="card login-box">
+            <h3 class="text-center">Login</h3>
+        </div>
+        <form class="form">
+            <div class="mb-3">
+                <label for="InputYourEmail" class="form-label">Input Your Email</label>
+                <input type="email" class="form-control" id="InputYourEmail" aria-describedby="EmailHelps" placeholder="kashif123@gmail.com">
+                <div id="EmailHelps" class="form-text">We'll never share your password with anyone else.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="InpurYourPassword" class="form-label">Input Your Password</label>
+                <input type="password" class="form-control" id="InpurYourPassword" placeholder="kashif12345">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="CheckTheBox">
+                <label for="CheckTheBox" class="form-check-label">Check me out</label>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
