@@ -1,0 +1,25 @@
+.font-family {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.image-size {
+    width: 18rem;
+    height: 22rem;
+}
+
+.logo-size {
+    width: 4rem;
+    height: 4rem;
+}
+
+.padding-top {
+    padding-top: 1rem;
+}
+
+.fact {
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: tomato;
+    display:list-item;
+    flex-direction: row;
+}
